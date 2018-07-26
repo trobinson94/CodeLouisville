@@ -1,0 +1,84 @@
+/*CUSTOM CSS  */
+
+body {
+  background-color: #FBFBF2;
+  font-family: 'Amiko';
+}
+
+.navbar {
+  background-color: #373F47;
+}
+
+.main-footer {
+  background-color: #93B7BE;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-color: #93B7BE;
+}
+
+.card-title {
+  height: auto;
+  margin-top: 25%;
+}
+
+.my-photo {
+  width: 100%;
+  height: auto;
+}
+
+.social {
+  width: 10%;
+  height: auto;
+}
+
+
+/* Media Queries -------------------- */
+
+@media (max-width: 990px) {
+
+  .card-img-overlay {
+    display: none;
+  }
+
+}
+
+@media (min-width: 769px) {
+
+  .my-photo {
+    width: 35%;
+    height: auto;
+  }
+
+  .jumbotron {
+    background-image: url('../img/background.jpg');
+  }
+
+  .card-deck {
+    back
+  }
+
+  .card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightgrey;
+  }
+
+  .card:hover .card-img-overlay {
+    opacity: .5;
+  }
+
+}
+
+@media (min-width: 1025px) {
+
+
+}
